@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{ 
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0;
+    background-image: linear-gradient(to left, rgb(127, 33, 146), rgb(89, 15, 154), rgb(44, 44, 171), rgb(96, 176, 216));
+    background-size: 500% 100%;
+    animation: degrade 5s infinite alternate;
+}
+
+@keyframes degrade{
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+header{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 10pt;
+}
+
+.p2{
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    margin-left: 30px;
+   
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 2.5em;
+}
+
+header a{
+    text-decoration: solid;
+}
+
+a{
+    color: rgb(231, 255, 77);
+}
+
+header img{
+    margin-left: 30px;
+}
+
+div{
+    margin-left: 130px;
+}
+
+*{
+    color: white
+}
+
+.div1{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.div11{
+    flex-direction: column;
+    font-size: 20pt;
+    width: 650px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.div11 h2{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 650px;
+    text-align: center;
+}
+
+.div2{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.div21{
+    flex-direction: column;
+    font-size: 20pt;
+    width: 650px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.div21 h2{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 650px;
+    text-align: center;
+}
+
+div img{
+    border-radius: 10%;
+    margin-top: 40px;
+}

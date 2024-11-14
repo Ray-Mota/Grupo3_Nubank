@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to left, rgb(127, 33, 146), rgb(89, 15, 154), rgb(44, 44, 171), rgb(96, 176, 216));
+    margin-top: 0;
+    margin-left: 0  ;
+    background-size: 500% 100%;
+    animation: degrade 5s infinite alternate;
+
+}
+
+@keyframes degrade{
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+.div1{
+    display: flex;
+    margin-top: 100px;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 10pt;
+}
+
+header img{
+    margin-left: 40px;
+}
+
+header a{
+    text-decoration: solid;
+}
+
+.p2{
+    margin-right: 20px;
+    margin-left: 30px;
+    color: black;
+}
+
+section{
+    margin-top: 60px;
+    border-bottom: 2px solid black ;
+    width: 60%;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clas {
+    display: block;
+    text-align: center;
+    width: 70%;
+    height: 50%;
+}
+
+
+.img {
+    border-radius: 15% 40%;
+    width: 575px;
+    padding-right: 80px;
+    border-style: none;
+    max-width: 100%;
+}
+
+.texto {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family:"Signika Negative", sans-serif; ;
+}
+
+.lado {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+.hi{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#video{
+    text-align: center;
+}

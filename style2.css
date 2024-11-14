@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prociono&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Prociono&family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(228, 225, 225);
+}
+
+header{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 10pt;
+}
+
+header img{
+    margin-left: 40px
+}
+
+.p2{
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    margin-left: 30px;
+   
+}
+
+p{
+    width: 800px;
+    text-align: justify;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: "Rethink Sans", sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+a{
+    text-decoration: solid;
+}
+
+h2{
+    color: rgb(175, 95, 187);
+}
+
+div h2{
+    font-size: 2.5em;
+    font-family: "Roboto Slab", serif;
+}
+
+.div1{
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    
+}
+.div11{
+    flex-direction: column;
+}
+
+.div11 p{
+    width: 500px;
+    margin-top: 80px;
+}
+
+.img1{
+    background-position: right;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.div2{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.div21{
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+
+.img2{
+   margin-left: 50px;
+   margin-top: 60px;
+}
+
+.div3{
+    display: flex;
+}
+
+.div31{
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.div31 p{
+    width: 700px;
+}
+
+iframe{
+    margin-left: 130px;
+    margin-top: 100px;
+}
